@@ -52,7 +52,7 @@
                    "2a78a82f9fb240cac5a33ee4dc13702539463ad6"}},
        {envy,".*",
              {git,"git@github.com:manderson26/envy.git",
-                  "18e43e10b89ccaa67ca5699089ad4bb09e1c4676"}},
+                 "86c56cb3a3f11fc174be6ae23aa9790d65d7cf87"}},
        {eper,".*",
              {git,"git://github.com/massemanet/eper.git",
                   "35636bc4de07bc803ea4fc9731fab005d0378c2b"}},
