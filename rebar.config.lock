@@ -25,7 +25,7 @@
                      "21b3efbbd76c16634de45fae5c7b94b1e02a3e59"}},
        {chef_index,".*",
                    {git,"git@github.com:opscode/chef_index.git",
-                        "b584c0a4373f977f0a15a7a139b7a49d07d59322"}},
+                        "59292c79bcf8a380c1745e00ede77b32b63b0d9e"}},
        {chef_objects,".*",
                      {git,"git@github.com:opscode/chef_objects.git",
                           "ef2dc1700cd61a6ebc9e82cef249d3ecbd07a6f6"}},
