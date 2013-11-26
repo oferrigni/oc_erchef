@@ -31,7 +31,7 @@
                           "ef2dc1700cd61a6ebc9e82cef249d3ecbd07a6f6"}},
        {chef_wm,".*",
                 {git,"git@github.com:opscode/chef_wm.git",
-                     "236e7d5d75722d8748b97ef0932176dc6f23c2d4"}},
+                     "97a08c124e60226842635e94c249de77a6bda99b"}},
        {couchbeam,".*",
                   {git,"git://github.com/opscode/couchbeam.git",
                        "c7881f6247a92cd62a818fe9f637ff973a5f8923"}},
@@ -133,7 +133,8 @@
                         "6a56cdff79ec095ab6a4e0d32745d81e1d43854f"}},
        {webmachine,".*",
                    {git,"git://github.com/opscode/webmachine",
-                        "eb6633593be10977399fcf8abb036faef4c5fba2"}}]}.
+                        "aa0d0f8e03e14e7fefc9e092c1c3535182c87ef6"}}]}.
+
 {plugins,[rebar_lock_deps_plugin]}.
 {cover_enabled,true}.
 {erl_opts,[{d,'OC_CHEF'},
