@@ -109,7 +109,7 @@
                              "6952d62c58d9671ebfad28e1e106fb78501d6065"}},
        {opscoderl_wm,".*",
                      {git,"git@github.com:opscode/opscoderl_wm.git",
-                          "cf43704f2c6fafd14420499acee2b2511b2fe28a"}},
+                          "5675bef13219b73f86660d1c36b73972d1c689b3"}},
        {pooler,".*",
                {git,"git://github.com/seth/pooler.git",
                     "37da392e5de1d8b9bfa277e2e13238b6610a1cd7"}},
