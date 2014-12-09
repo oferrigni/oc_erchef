@@ -387,7 +387,7 @@ random_bogus_port() ->
     Port.
 
 needed_apps() ->
-    [crypto, ibrowse, pooler, stats_hero, public_key, ssl, epgsql, sqerl, oc_chef_authz].
+    [crypto, asn1, ibrowse, pooler, stats_hero, public_key, ssl, epgsql, sqerl, oc_chef_authz].
 
 start_apps() ->
     error_logger:tty(false),
