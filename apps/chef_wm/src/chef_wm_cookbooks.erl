@@ -25,7 +25,7 @@
 -compile(export_all).
 -endif.
 
--include("chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
 
 -mixin([{chef_wm_base, [content_types_provided/2,
                         finish_request/2,

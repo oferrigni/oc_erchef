@@ -23,7 +23,7 @@
 
 -behaviour(supervisor).
 
--include("chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
 
 %% External exports
 -export([start_link/0, upgrade/0]).

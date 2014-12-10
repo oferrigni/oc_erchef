@@ -20,8 +20,8 @@
 
 -module(oc_chef_wm_acl).
 
--include_lib("chef_wm/include/chef_wm.hrl").
--include_lib("oc_chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
+-include("../../include/oc_chef_wm.hrl").
 
 -mixin([{chef_wm_base, [content_types_accepted/2,
                         content_types_provided/2,

@@ -20,8 +20,8 @@
 
 
 -include_lib("webmachine/include/wm_reqdata.hrl").
--include_lib("chef_objects/include/chef_types.hrl").
--include_lib("chef_objects/include/chef_osc_defaults.hrl").
+-include("chef_types.hrl").
+-include("chef_osc_defaults.hrl").
 -include_lib("mixer/include/mixer.hrl").
 -include_lib("ej/include/ej.hrl").
 

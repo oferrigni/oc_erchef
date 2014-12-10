@@ -5,8 +5,8 @@
 
 -module(oc_chef_wm_controls).
 
--include_lib("chef_wm/include/chef_wm.hrl").
--include_lib("oc_chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
+-include("../../include/oc_chef_wm.hrl").
 -include_lib("eunit/include/eunit.hrl").
 
 -mixin([{chef_wm_base, [

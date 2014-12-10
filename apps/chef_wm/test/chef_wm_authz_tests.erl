@@ -26,7 +26,7 @@
 -module(chef_wm_authz_tests).
 
 -include_lib("eunit/include/eunit.hrl").
--include_lib("chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
 
 make_client(Name, Admin, Validator) ->
   #chef_client{name = Name,

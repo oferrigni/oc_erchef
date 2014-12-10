@@ -8,9 +8,9 @@
 
 -module(oc_chef_associations).
 
--include_lib("chef_wm/include/chef_wm.hrl").
--include_lib("oc_chef_wm/include/oc_chef_wm.hrl").
--include_lib("oc_chef_authz/include/oc_chef_authz.hrl").
+-include("../../include/chef_wm.hrl").
+-include("../../include/oc_chef_wm.hrl").
+-include("../../include/oc_chef_authz.hrl").
 
 -export([deprovision_removed_user/3,
          provision_associated_user/3,

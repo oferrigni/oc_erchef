@@ -21,7 +21,7 @@
 
 -module(chef_wm_data).
 
--include("chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
 
 -mixin([{chef_wm_base, [content_types_accepted/2,
                         content_types_provided/2,

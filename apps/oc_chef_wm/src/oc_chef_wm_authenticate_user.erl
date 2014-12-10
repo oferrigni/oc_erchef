@@ -7,8 +7,8 @@
 
 -module(oc_chef_wm_authenticate_user).
 
--include_lib("chef_wm/include/chef_wm.hrl").
--include("oc_chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
+-include("../../include/oc_chef_wm.hrl").
 
 -mixin([{chef_wm_base, [content_types_provided/2,
                         finish_request/2,

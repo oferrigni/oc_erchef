@@ -62,7 +62,7 @@
 %% -callback request_type() -> string().
 %% -callback auth_info(#wm_reqdata{}, any()) -> {not_found | binary(), #wm_reqdata{}, any()}.
 
--include("chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
 -include_lib("eunit/include/eunit.hrl").
 -include_lib("public_key/include/public_key.hrl").
 

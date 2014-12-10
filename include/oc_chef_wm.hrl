@@ -3,7 +3,7 @@
 %% @author Stephen Delano <stephen@opscode.com>
 %% Copyright 2013 Opscode, Inc. All Rights Reserved.
 
--include_lib("oc_chef_authz/include/oc_chef_types.hrl").
+-include("oc_chef_types.hrl").
 
 -record(container_state, {
           container_data,

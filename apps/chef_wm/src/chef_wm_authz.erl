@@ -34,7 +34,7 @@
          is_requesting_node/2,
          is_validator/1]).
 
--include("chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
 
 %% @doc Reject validator clients, but allow all other requestors.
 all_but_validators(#chef_client{validator=true}) -> forbidden;

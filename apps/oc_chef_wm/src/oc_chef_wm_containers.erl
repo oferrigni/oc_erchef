@@ -5,9 +5,9 @@
 
 -module(oc_chef_wm_containers).
 
--include_lib("chef_wm/include/chef_wm.hrl").
-%%-include_lib("oc_chef_authz/include/oc_chef_types.hrl").
--include_lib("oc_chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
+%%-include("../../include/oc_chef_types.hrl").
+-include("../../include/oc_chef_wm.hrl").
 -include_lib("eunit/include/eunit.hrl").
 
 -mixin([{chef_wm_base, [

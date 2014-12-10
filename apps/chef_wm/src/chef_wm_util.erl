@@ -42,7 +42,7 @@
          lists_diff/2
         ]).
 
--include("chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
 
 %% TODO: These types are just placeholders until we get all the types cleaned up
 -type ejson() :: {[tuple()]}.

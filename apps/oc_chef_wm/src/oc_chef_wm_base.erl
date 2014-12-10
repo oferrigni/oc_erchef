@@ -39,8 +39,8 @@
 %% This is the max size allowed for incoming request bodies.
 -define(MAX_SIZE, 1000000).
 
--include_lib("chef_wm/include/chef_wm.hrl").
--include_lib("oc_chef_wm/include/oc_chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
+-include("../../include/oc_chef_wm.hrl").
 
 %% @doc Determines if service is available.
 %%

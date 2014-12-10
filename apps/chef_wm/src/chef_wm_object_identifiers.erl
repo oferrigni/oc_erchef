@@ -38,7 +38,7 @@
 %%
 -module(chef_wm_object_identifiers).
 
--include("chef_wm.hrl").
+-include("../../include/chef_wm.hrl").
 
 -mixin([{chef_wm_base, [content_types_provided/2,
                         finish_request/2,
